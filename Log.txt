@@ -1,0 +1,936 @@
+[May 06 2021 13:58:13 @startExpress]: ["Starting server..."]
+[May 06 2021 14:19:10 @startExpress]: ["Starting server..."]
+[May 06 2021 14:19:42 @startExpress]: ["Starting server..."]
+[May 06 2021 14:19:42 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:39:28 @main]: ["Argv: ",["read"]]
+[May 06 2021 14:39:28 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 14:39:28 @readFile]: ["Start of readFile function: ","undefined"]
+[May 06 2021 14:39:28 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:39:28 @Unknown Caller]: ["An error on line 50 has ocured: \n",{"code":"ERR_INVALID_ARG_TYPE"}]
+[May 06 2021 14:39:52 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 14:39:52 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 14:39:52 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:39:52 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 14:39:52 @Unknown Caller]: ["Out of index"]
+[May 06 2021 14:41:23 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:41:23 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 14:41:23 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 14:41:23 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 14:41:23 @Unknown Caller]: ["Out of index"]
+[May 06 2021 14:41:23 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 14:41:42 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:41:42 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 14:41:42 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 14:41:42 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 14:41:42 @Unknown Caller]: ["Out of index"]
+[May 06 2021 14:41:42 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 14:44:45 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:44:45 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 14:44:45 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 14:44:45 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 14:44:45 @startExpress]: ["Starting server..."]
+[May 06 2021 14:44:45 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:44:45 @Unknown Caller]: ["Out of index"]
+[May 06 2021 14:44:45 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 14:45:04 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:45:04 @startExpress]: ["Starting server..."]
+[May 06 2021 14:45:04 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:46:22 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:46:22 @startExpress]: ["Starting server..."]
+[May 06 2021 14:46:22 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:47:39 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:47:39 @startExpress]: ["Starting server..."]
+[May 06 2021 14:47:39 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:47:53 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 14:47:53 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 14:47:53 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 14:47:53 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 14:47:53 @Unknown Caller]: ["Out of index"]
+[May 06 2021 14:48:09 @startExpress]: ["Starting server..."]
+[May 06 2021 14:48:09 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:48:09 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:48:13 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 14:48:13 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 14:48:13 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 14:48:13 @Unknown Caller]: ["Out of index"]
+[May 06 2021 14:48:13 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 14:49:32 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 14:49:32 @startExpress]: ["Starting server..."]
+[May 06 2021 14:49:32 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:53:35 @startExpress]: ["Starting server..."]
+[May 06 2021 14:53:35 @startExpress]: ["Starting server..."]
+[May 06 2021 14:53:35 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 14:53:35 @Unknown Caller]: ["Server running/listening on http://localhost:4000"]
+[May 06 2021 14:55:31 @startExpress]: ["Starting server..."]
+[May 06 2021 14:55:31 @startExpress]: ["Starting server..."]
+[May 06 2021 14:55:31 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 14:55:31 @Unknown Caller]: ["Server running/listening on http://localhost:4000"]
+[May 06 2021 14:55:31 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:07:54 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 15:07:54 @startExpress]: ["Starting server..."]
+[May 06 2021 15:07:54 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:07:54 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:08:09 @startExpress]: ["Starting server..."]
+[May 06 2021 15:08:09 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:08:09 @startExpress]: ["Starting server..."]
+[May 06 2021 15:08:09 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:08:09 @Unknown Caller]: ["Server running/listening on http://localhost:4000"]
+[May 06 2021 15:20:28 @startExpress]: ["Starting server..."]
+[May 06 2021 15:20:28 @start]: ["Usage: node pets.js [read | create | update | destroy]"]
+[May 06 2021 15:20:28 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:20:28 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:20:35 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:20:35 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:20:35 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:20:35 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:20:35 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 15:27:03 @startExpress]: ["Starting server..."]
+[May 06 2021 15:27:03 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:27:03 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:48:56 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:48:56 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:48:56 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:48:56 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:48:56 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 15:49:25 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:49:25 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:49:25 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:49:26 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:49:26 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 15:53:11 @startExpress]: ["Starting server..."]
+[May 06 2021 15:53:11 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:53:11 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:54:18 @startExpress]: ["Starting server..."]
+[May 06 2021 15:54:18 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:54:18 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:54:27 @Unknown Caller]: ["Home page: ","You're in the right place, but you'll need to be more specific on where you want to go. \nPlease specify in the URL along with any arguments"]
+[May 06 2021 15:54:35 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:54:35 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:54:35 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:54:35 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 15:54:35 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:54:35 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 15:58:43 @startExpress]: ["Starting server..."]
+[May 06 2021 15:58:43 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:58:43 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:58:49 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:58:49 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:58:49 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:58:49 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 15:58:49 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:58:49 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 15:59:09 @startExpress]: ["Starting server..."]
+[May 06 2021 15:59:09 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:59:09 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:59:13 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:59:13 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:59:13 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:59:13 @Unknown Caller]: ["Response:","{}"]
+[May 06 2021 15:59:13 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:59:13 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 15:59:31 @startExpress]: ["Starting server..."]
+[May 06 2021 15:59:31 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:59:31 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:59:34 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:59:34 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:59:34 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:59:34 @Unknown Caller]: ["Response:","{}"]
+[May 06 2021 15:59:34 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:59:34 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 15:59:47 @startExpress]: ["Starting server..."]
+[May 06 2021 15:59:47 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 15:59:47 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 15:59:50 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 15:59:50 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 15:59:50 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 15:59:50 @Unknown Caller]: ["Response:","{}"]
+[May 06 2021 15:59:50 @Unknown Caller]: ["Out of index"]
+[May 06 2021 15:59:50 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 16:02:41 @startExpress]: ["Starting server..."]
+[May 06 2021 16:02:41 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:02:41 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:02:45 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:02:45 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:02:45 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:02:45 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:02:45 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:02:45 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 16:03:13 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:03:13 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:03:13 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:03:13 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:03:13 @main]: [[{"age":7,"kind":"rainbow","name":"fido"},{"age":5,"kind":"snake","name":"Buttons"}]]
+[May 06 2021 16:03:13 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:05:57 @startExpress]: ["Starting server..."]
+[May 06 2021 16:05:57 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:05:57 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:06:41 @startExpress]: ["Starting server..."]
+[May 06 2021 16:06:41 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:06:41 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:06:55 @startExpress]: ["Starting server..."]
+[May 06 2021 16:06:55 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:06:55 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:06:56 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:06:56 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:06:56 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:06:56 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:06:56 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:07:15 @startExpress]: ["Starting server..."]
+[May 06 2021 16:07:15 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:07:15 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:07:18 @startExpress]: ["Starting server..."]
+[May 06 2021 16:07:18 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:07:18 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:07:22 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:07:22 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:07:22 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:07:22 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:07:22 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:08:46 @startExpress]: ["Starting server..."]
+[May 06 2021 16:08:46 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:08:46 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:08:51 @startExpress]: ["Starting server..."]
+[May 06 2021 16:08:51 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:08:51 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:08:55 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:08:55 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:08:55 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:08:55 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:08:55 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:09:25 @startExpress]: ["Starting server..."]
+[May 06 2021 16:09:25 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:09:25 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:09:46 @startExpress]: ["Starting server..."]
+[May 06 2021 16:09:47 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:09:47 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:11:19 @startExpress]: ["Starting server..."]
+[May 06 2021 16:11:19 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:11:19 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:11:23 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:11:23 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:11:23 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:11:23 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:11:23 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:12:37 @startExpress]: ["Starting server..."]
+[May 06 2021 16:12:38 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:12:38 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:13:11 @startExpress]: ["Starting server..."]
+[May 06 2021 16:13:11 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:13:11 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:15:16 @startExpress]: ["Starting server..."]
+[May 06 2021 16:15:16 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:15:16 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:16:54 @startExpress]: ["Starting server..."]
+[May 06 2021 16:16:54 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:16:54 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:17:05 @startExpress]: ["Starting server..."]
+[May 06 2021 16:17:05 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:17:05 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:17:29 @startExpress]: ["Starting server..."]
+[May 06 2021 16:17:29 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:17:29 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:17:35 @Unknown Caller]: ["Debbuging"]
+[May 06 2021 16:17:54 @Unknown Caller]: ["Debbuging"]
+[May 06 2021 16:18:18 @startExpress]: ["Starting server..."]
+[May 06 2021 16:18:18 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:18:18 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:18:34 @startExpress]: ["Starting server..."]
+[May 06 2021 16:18:34 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:18:34 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:18:37 @startExpress]: ["Starting server..."]
+[May 06 2021 16:18:37 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:18:37 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:19:37 @startExpress]: ["Starting server..."]
+[May 06 2021 16:19:37 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:19:37 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:19:54 @startExpress]: ["Starting server..."]
+[May 06 2021 16:19:54 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:19:54 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:19:57 @Unknown Caller]: ["Running back 500"]
+[May 06 2021 16:20:25 @startExpress]: ["Starting server..."]
+[May 06 2021 16:20:25 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:20:25 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:20:28 @Unknown Caller]: ["Running back 500"]
+[May 06 2021 16:20:44 @startExpress]: ["Starting server..."]
+[May 06 2021 16:20:44 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:20:44 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:20:53 @Unknown Caller]: ["Running back 500"]
+[May 06 2021 16:21:03 @startExpress]: ["Starting server..."]
+[May 06 2021 16:21:03 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:21:03 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:21:06 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:21:27 @Unknown Caller]: ["Home page: ","You're in the right place, but you'll need to be more specific on where you want to go. \nPlease specify in the URL along with any arguments"]
+[May 06 2021 16:21:31 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:21:31 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:21:31 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:21:31 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:21:31 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:22:35 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:22:42 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:22:46 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:22:59 @startExpress]: ["Starting server..."]
+[May 06 2021 16:22:59 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:22:59 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:23:03 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:23:42 @startExpress]: ["Starting server..."]
+[May 06 2021 16:23:42 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:23:42 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:23:45 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:24:09 @startExpress]: ["Starting server..."]
+[May 06 2021 16:24:09 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:24:09 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:24:12 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:24:43 @startExpress]: ["Starting server..."]
+[May 06 2021 16:24:43 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:24:43 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:24:47 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:24:56 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:25:01 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:26:39 @startExpress]: ["Starting server..."]
+[May 06 2021 16:26:39 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:26:39 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:26:43 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:27:14 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:29:33 @startExpress]: ["Starting server..."]
+[May 06 2021 16:29:33 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:29:33 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:29:47 @Unknown Caller]: ["Throwing server error"]
+[May 06 2021 16:29:47 @Unknown Caller]: ["Debbuging: ","servererror"]
+[May 06 2021 16:30:09 @startExpress]: ["Starting server..."]
+[May 06 2021 16:30:09 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:30:09 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:33:18 @startExpress]: ["Starting server..."]
+[May 06 2021 16:33:18 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:33:18 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:33:33 @Unknown Caller]: ["Home page: ","You're in the right place, but you'll need to be more specific on where you want to go. \nPlease specify in the URL along with any arguments"]
+[May 06 2021 16:33:47 @main]: ["Argv: ",["read","pets.json"]]
+[May 06 2021 16:33:47 @readFile]: ["Start of readFile function: ","string"]
+[May 06 2021 16:33:47 @main]: ["Arguments in main func were: \"\" object"]
+[May 06 2021 16:33:47 @Unknown Caller]: ["Response:",{}]
+[May 06 2021 16:33:47 @Unknown Caller]: ["Out of index"]
+[May 06 2021 16:35:31 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:35:56 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:36:12 @startExpress]: ["Starting server..."]
+[May 06 2021 16:36:12 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:36:12 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:36:33 @Unknown Caller]: ["Unknown debbuging argument"]
+[May 06 2021 16:36:33 @Unknown Caller]: ["Debbuging: ",null]
+[May 06 2021 16:36:45 @startExpress]: ["Starting server..."]
+[May 06 2021 16:36:45 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:36:45 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:36:48 @Unknown Caller]: ["Debbuging: ",null]
+[May 06 2021 16:36:48 @Unknown Caller]: ["Unknown debbuging argument"]
+[May 06 2021 16:37:19 @Unknown Caller]: ["Throwing server error"]
+[May 06 2021 16:37:19 @Unknown Caller]: ["Debbuging: ","servererror"]
+[May 06 2021 16:37:19 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:38:30 @startExpress]: ["Starting server..."]
+[May 06 2021 16:38:30 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:38:30 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:38:37 @Unknown Caller]: ["Running back 404"]
+[May 06 2021 16:39:49 @startExpress]: ["Starting server..."]
+[May 06 2021 16:39:49 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:39:49 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:40:41 @startExpress]: ["Starting server..."]
+[May 06 2021 16:40:41 @Unknown Caller]: ["ASSSS"]
+[May 06 2021 16:40:41 @Unknown Caller]: ["Server running/listening on http://localhost:3500"]
+[May 06 2021 16:41:03 @Unknown Caller]: ["Debbuging: ","servererror"]
+[May 06 2021 16:41:03 @Unknown Caller]: ["Throwing server error"]
+[May 06 2021 16:41:03 @Unknown Caller]: ["Running back 500: ",{}]
+[May 06 2021 16:41:18 @Unknown Caller]: ["Unknown debbuging argument"]
+[May 06 2021 16:41:18 @Unknown Caller]: ["Debbuging: ","servererrorrftfyhjfxghxdfghx"]
+[May 06 2021 17:24:48 @startExpress]: "Starting server..."
+[May 06 2021 17:24:48 @Unknown Caller]: "ASSSS"
+[May 06 2021 17:24:48 @Unknown Caller]: "Server running/listening on http://localhost:3500"
+[May 06 2021 17:24:53 @Unknown Caller]: "Debbuging: ""servererrorrftfyhjfxghxdfghx"
+[May 06 2021 17:24:53 @Unknown Caller]: "Unknown debbuging argument"
+[May 06 2021 17:25:12 @main]: "Argv: "["read","pets.json"]
+[May 06 2021 17:25:12 @main]: "Arguments in main func were: \"\" object"
+[May 06 2021 17:25:12 @readFile]: "Start of readFile function: ""string"
+[May 06 2021 17:25:12 @Unknown Caller]: "Response:"{}
+[May 06 2021 17:25:12 @Unknown Caller]: "Out of index"
+[May 06 2021 17:28:57 @startExpress]: "Starting server..."
+[May 06 2021 17:28:57 @Unknown Caller]: "ASSSS"
+[May 06 2021 17:28:57 @Unknown Caller]: "Server running/listening on http://localhost:3500"
+[May 06 2021 17:29:01 @readFile]: "Start of readFile function: ""string"
+[May 06 2021 17:29:01 @main]: "Argv: "["read","pets.json"]
+[May 06 2021 17:29:01 @main]: "Arguments in main func were: \"\" object"
+[May 06 2021 17:29:01 @Unknown Caller]: "Response:"{}
+[May 06 2021 17:29:01 @Unknown Caller]: "Out of index"
+[May 06 2021 17:35:19 @startExpress]: "Starting server..."
+[May 06 2021 17:35:19 @Unknown Caller]: "ASSSS"
+[May 06 2021 17:35:19 @Unknown Caller]: "Server running/listening on http://localhost:3500"
+[May 06 2021 17:35:34 @startExpress]: "Starting server..."
+[May 06 2021 17:35:34 @Unknown Caller]: "ASSSS"
+[May 06 2021 17:35:34 @Unknown Caller]: "Server running/listening on http://localhost:3500"
+[May 06 2021 17:35:52 @startExpress]: "SJH"
+[May 06 2021 17:35:52 @Unknown Caller]: "SJH"
+[May 06 2021 17:35:52 @Unknown Caller]: "SJH"
+[May 06 2021 17:37:44 @startExpress]: FUK
+[May 06 2021 17:37:44 @Unknown Caller]: FUK
+[May 06 2021 17:37:44 @Unknown Caller]: FUK
+[May 06 2021 17:37:58 @startExpress]: Starting server...
+[May 06 2021 17:37:58 @Unknown Caller]: ASSSS
+[May 06 2021 17:37:58 @Unknown Caller]: Server running/listening on http://localhost:3500
+[May 06 2021 17:38:12 @main]: Argv: ["read","pets.json"]
+[May 06 2021 17:38:12 @main]: Arguments in main func were: "" object
+[May 06 2021 17:38:12 @readFile]: Start of readFile function: string
+[May 06 2021 17:38:12 @Unknown Caller]: Response:{}
+[May 06 2021 17:38:12 @Unknown Caller]: Out of index
+[May 06 2021 17:40:55 @startExpress]: Starting server...
+[May 06 2021 17:40:55 @Unknown Caller]: ASSSS
+[May 06 2021 17:40:55 @Unknown Caller]: Server running/listening on http://localhost:3500
+[May 06 2021 17:42:28 @startExpress]: {}
+[May 06 2021 17:42:28 @startExpress]: Starting server...
+[May 06 2021 17:42:28 @Unknown Caller]: ASSSS
+[May 06 2021 17:42:28 @Unknown Caller]: Server running/listening on http://localhost:3500
+[May 06 2021 17:43:06 @startExpress]: {}
+[May 06 2021 17:43:06 @startExpress]: Starting server...
+[May 06 2021 17:43:06 @Unknown Caller]: ASSSS
+[May 06 2021 17:43:06 @listt]: Server running/listening on http://localhost:3500
+[May 06 2021 17:44:25 @startExpress]: {}
+[May 06 2021 17:44:25 @startExpress]: Starting server...
+[May 06 2021 17:44:25 @Unknown Caller]: ASSSS
+[May 06 2021 17:44:25 @Unknown Caller]: Server running/listening on http://localhost:3500
+[May 06 2021 17:48:40 @startExpress]: Starting server...
+[May 06 2021 17:48:40 @startExpress]: {}
+[May 06 2021 17:48:40 @Unknown Caller]: ASSSS
+[May 06 2021 17:48:40 @Unknown Caller]: Server running/listening on http://localhost:3500
+[May 06 2021 17:50:51 @startExpress]: Starting server...
+[May 06 2021 17:50:51 @startExpress]: {}
+[May 06 2021 17:50:51 @Unknown Caller]: ASSSS
+[May 06 2021 17:50:51 @listen_func]: Server running/listening on http://localhost:3500
+[May 06 2021 17:52:12 @startExpress]: Starting server...
+[May 06 2021 17:52:12 @startExpress]: {}
+[May 06 2021 17:52:12 @Unknown Caller]: ASSSS
+[May 06 2021 17:52:12 @listen_func]: Server running/listening on http://localhost:3500
+[May 06 2021 17:52:16 @main]: Argv: ["read","pets.json"]
+[May 06 2021 17:52:16 @main]: Arguments in main func were: "" object
+[May 06 2021 17:52:16 @pets_root_func]: Response:{}
+[May 06 2021 17:52:16 @readFile]: Start of readFile function: string
+[May 06 2021 17:52:16 @Unknown Caller]: Out of index
+[May 06 2021 18:06:40 @startExpress]: {}
+[May 06 2021 18:06:40 @startExpress]: Starting server...
+[May 06 2021 18:06:40 @Unknown Caller]: ASSSS
+[May 06 2021 18:06:40 @listen_func]: Server running/listening on http://localhost:3500
+[May 06 2021 18:08:56 @undefined]: {}
+[May 06 2021 18:08:56 @undefined]: Starting server...
+[May 06 2021 18:08:56 @undefined]: ASSSS
+[May 06 2021 18:08:56 @undefined]: Server running/listening on http://localhost:3500
+[May 06 2021 18:09:23 @undefined]: {}
+[May 06 2021 18:09:23 @undefined]: Starting server...
+[May 06 2021 18:09:23 @undefined]: ASSSS
+[May 06 2021 18:09:23 @undefined]: Server running/listening on http://localhost:3500
+[May 06 2021 18:09:29 @undefined]: {}
+[May 06 2021 18:09:29 @undefined]: Starting server...
+[May 06 2021 18:09:29 @undefined]: ASSSS
+[May 06 2021 18:09:29 @undefined]: Server running/listening on http://localhost:3500
+[May 06 2021 18:11:41 @undefined]:	 Starting server...
+[May 06 2021 18:11:41 @undefined]:	 {}
+[May 06 2021 18:11:41 @undefined]:	 ASSSS
+[May 06 2021 18:11:41 @undefined]:	 Server running/listening on http://localhost:3500
+[May 06 2021 18:11:51 @startExpress]:	 {}
+[May 06 2021 18:11:51 @startExpress]:	 Starting server...
+[May 06 2021 18:11:51 @Unknown Caller]:	 ASSSS
+[May 06 2021 18:11:51 @listen_func]:	 Server running/listening on http://localhost:3500
+[May 06 2021 18:12:01 @Unknown Caller]:	 Debbuging: servererrorrftfyhjfxghxdfghx
+[May 06 2021 18:12:01 @Unknown Caller]:	 Unknown debbuging argument
+[May 06 2021 18:14:26 @startExpress]:	|	 {}
+[May 06 2021 18:14:26 @startExpress]:	|	 Starting server...
+[May 06 2021 18:14:26 @Unknown Caller]:	|	 ASSSS
+[May 06 2021 18:14:26 @listen_func]:	|	 Server running/listening on http://localhost:3500
+[May 06 2021 18:14:35 @startExpress]:	 |	 {}
+[May 06 2021 18:14:35 @startExpress]:	 |	 Starting server...
+[May 06 2021 18:14:35 @Unknown Caller]:	 |	 ASSSS
+[May 06 2021 18:14:35 @listen_func]:	 |	 Server running/listening on http://localhost:3500
+[May 06 2021 18:14:52 @startExpress]:		 {}
+[May 06 2021 18:14:52 @startExpress]:		 Starting server...
+[May 06 2021 18:14:52 @Unknown Caller]:		 ASSSS
+[May 06 2021 18:14:52 @listen_func]:		 Server running/listening on http://localhost:3500
+|-[May 06 2021 18:15:08 @startExpress]:		 Starting server... 		|
+|-[May 06 2021 18:15:08 @startExpress]:		 {} 		|
+|-[May 06 2021 18:15:08 @Unknown Caller]:		 ASSSS 		|
+|-[May 06 2021 18:15:08 @listen_func]:		 Server running/listening on http://localhost:3500 		|
+|-[May 06 2021 18:17:35 @startExpress]:	 {}                                                                                                                                                                                                        | 
+|-[May 06 2021 18:17:35 @startExpress]:	 Starting server...                                                                                                                                                                                                        | 
+|-[May 06 2021 18:17:35 @Unknown Caller]:	 ASSSS                                                                                                                                                                                                        | 
+|-[May 06 2021 18:17:35 @listen_func]:	 Server running/listening on http://localhost:3500                                                                                                                                                                                                        | 
+|-[May 06 2021 18:17:46 @startExpress]:	 Starting server... |                                                                                                                                                                                                        
+|-[May 06 2021 18:17:46 @startExpress]:	 {} |                                                                                                                                                                                                        
+|-[May 06 2021 18:17:46 @Unknown Caller]:	 ASSSS |                                                                                                                                                                                                        
+|-[May 06 2021 18:17:46 @listen_func]:	 Server running/listening on http://localhost:3500 |                                                                                                                                                                                                        
+|-[May 06 2021 18:19:42 @startExpress]:	 Starting server...                                                                                                                                            |
+|-[May 06 2021 18:19:42 @startExpress]:	 {}                                                                                                                                                            |
+|-[May 06 2021 18:19:42 @Unknown Caller]:	 ASSSS                                                                                                                                                       |
+|-[May 06 2021 18:19:42 @listen_func]:	 Server running/listening on http://localhost:3500                                                                                                              |
+|-[May 06 2021 18:20:05 @startExpress]:	 {}                                                        |
+|-[May 06 2021 18:20:05 @startExpress]:	 Starting server...                                        |
+|-[May 06 2021 18:20:05 @Unknown Caller]:	 ASSSS                                                   |
+|-[May 06 2021 18:20:05 @listen_func]:	 Server running/listening on http://localhost:3500          |
+|-[May 06 2021 18:20:16 @startExpress]:	 {}                                                                            |
+|-[May 06 2021 18:20:16 @startExpress]:	 Starting server...                                                            |
+|-[May 06 2021 18:20:16 @Unknown Caller]:	 ASSSS                                                                       |
+|-[May 06 2021 18:20:16 @listen_func]:	 Server running/listening on http://localhost:3500                              |
+|-[May 06 2021 18:25:29 @startExpress]:	 {} |                                                                           
+|-[May 06 2021 18:25:29 @startExpress]:	 Starting server... |                                                           
+|-[May 06 2021 18:25:29 @Unknown Caller]:	 ASSSS |                                                                      
+|-[May 06 2021 18:25:29 @listen_func]:	 Server running/listening on http://localhost:3500 |                             
+|-[May 06 2021 18:25:46 @startExpress]:	 {}                                                                                                                                        |
+|-[May 06 2021 18:25:46 @startExpress]:	 Starting server...                                                                                                                        |
+|-[May 06 2021 18:25:46 @Unknown Caller]:	 ASSSS                                                                                                                                   |
+|-[May 06 2021 18:25:46 @listen_func]:	 Server running/listening on http://localhost:3500                                                                                          |
+|-[May 06 2021 18:26:06 @startExpress]:	 {}                                                        |
+|-[May 06 2021 18:26:06 @startExpress]:	 Starting server...                                        |
+|-[May 06 2021 18:26:06 @Unknown Caller]:	 ASSSS                                                   |
+|-[May 06 2021 18:26:06 @listen_func]:	 Server running/listening on http://localhost:3500          |
+|-[May 06 2021 18:26:40 @startExpress]:    	 Starting server... 
+|-[May 06 2021 18:26:40 @startExpress]:    	 {} 
+|-[May 06 2021 18:26:40 @Unknown Caller]:    	 ASSSS 
+|-[May 06 2021 18:26:40 @listen_func]:    	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:26:44 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:26:44 @startExpress]:   	 {} 
+|-[May 06 2021 18:26:44 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:26:44 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:27:22 @startExpress]:   	 {} 
+|-[May 06 2021 18:27:22 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:27:22 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:27:22 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:27:32 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:27:32 @startExpress]:   	 {} 
+|-[May 06 2021 18:27:32 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:27:32 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:27:39 @startExpress]:   	 {} 
+|-[May 06 2021 18:27:39 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:27:39 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:27:39 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:27:50 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:27:50 @startExpress]:   	 {} 
+|-[May 06 2021 18:27:50 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:27:50 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:29:53 @startExpress]:   	 {} 
+|-[May 06 2021 18:29:53 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:29:53 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:29:53 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:30:05 @Unknown Caller]:   	 Debbuging: undefined 
+|-[May 06 2021 18:30:05 @Unknown Caller]:   	 Unknown debbuging argument 
+|-[May 06 2021 18:30:46 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:30:46 @startExpress]:   	 {} 
+|-[May 06 2021 18:30:46 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:30:46 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:30:48 @Unknown Caller]:   	 Unknown debbuging argument 
+|-[May 06 2021 18:30:48 @Unknown Caller]:   	 Debbuging: undefined 
+|-[May 06 2021 18:31:28 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 06 2021 18:31:28 @Unknown Caller]:   	 Throwing server error 
+|-[May 06 2021 18:31:28 @Unknown Caller]:   	 Debbuging: servererror 
+|-[May 06 2021 18:31:43 @startExpress]:   	 {} 
+|-[May 06 2021 18:31:43 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:31:43 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:31:43 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:31:46 @Unknown Caller]:   	 Debbuging: servererror 
+|-[May 06 2021 18:31:46 @Unknown Caller]:   	 Throwing server error 
+|-[May 06 2021 18:31:46 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 06 2021 18:32:22 @Unknown Caller]:   	 Debbuging: undefined 
+|-[May 06 2021 18:32:22 @Unknown Caller]:   	 Unknown debbuging argument 
+|-[May 06 2021 18:32:40 @startExpress]:   	 {} 
+|-[May 06 2021 18:32:40 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:32:40 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:32:40 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:32:41 @Unknown Caller]:   	 Unknown debbuging argument 
+|-[May 06 2021 18:32:41 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 06 2021 18:44:11 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:44:11 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:44:11 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:44:13 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:44:13 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:44:13 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:45:48 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:45:48 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:45:48 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:54:14 @startExpress]:   	 Arg1Arg2 
+|-[May 06 2021 18:54:14 @startExpress]:   	 {} 
+|-[May 06 2021 18:54:14 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:54:14 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:54:14 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:54:40 @startExpress]:   	 Arg1Arg2 
+|-[May 06 2021 18:54:40 @startExpress]:   	 {} 
+|-[May 06 2021 18:54:40 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:54:40 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:54:40 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:56:06 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:56:06 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:56:06 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:56:27 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 06 2021 18:56:27 @Unknown Caller]:   	 Throwing server error 
+|-[May 06 2021 18:56:27 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 06 2021 18:56:52 @startExpress]:   	 Starting server... 
+|-[May 06 2021 18:56:52 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 18:56:52 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 18:57:10 @startExpress]:   	 Starting server... |
+|-[May 06 2021 18:57:10 @Unknown Caller]:   	 ASSSS |
+|-[May 06 2021 18:57:10 @listen_func]:   	 Server running/listening on http://localhost:3500 |
+|-[May 06 2021 19:00:24 @startExpress]:   	 Starting server... |
+|-[May 06 2021 19:00:24 @Unknown Caller]:   	 ASSSS |
+|-[May 06 2021 19:00:24 @listen_func]:   	 Server running/listening on http://localhost:3500 |
+|-[May 06 2021 19:51:47 @startExpress]:   	 Starting server... 
+|-[May 06 2021 19:51:47 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 19:51:47 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 19:56:38 @startExpress]:   	 Starting server... 
+|-[May 06 2021 19:56:38 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 19:56:38 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 20:04:40 @startExpress]:   	 Starting server... 
+|-[May 06 2021 20:04:40 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 20:04:40 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 20:04:51 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 06 2021 20:04:51 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 06 2021 20:04:51 @Unknown Caller]:   	 Throwing server error 
+|-[May 06 2021 20:05:31 @startExpress]:   	 Starting server... 
+|-[May 06 2021 20:05:31 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 20:05:31 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 20:05:37 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 06 2021 20:05:37 @Unknown Caller]:   	 Throwing server error 
+|-[May 06 2021 20:05:37 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 06 2021 20:05:53 @startExpress]:   	 Starting server... 
+|-[May 06 2021 20:05:53 @Unknown Caller]:   	 ASSSS 
+|-[May 06 2021 20:05:53 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 06 2021 20:05:56 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 06 2021 20:05:56 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 06 2021 20:05:56 @Unknown Caller]:   	 Throwing server error 
+|-[May 06 2021 20:07:18 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 06 2021 20:07:18 @Unknown Caller]:   	 Unknown debbuging argument 
+|-[May 07 2021 00:01:13 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 07 2021 00:01:13 @Unknown Caller]:   	 Unknown debbuging argument 
+|-[May 07 2021 00:01:24 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 00:01:24 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 00:01:24 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 00:01:24 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 00:01:24 @Unknown Caller]:   	 Out of index 
+|-[May 07 2021 00:13:54 @startExpress]:   	 Starting server... 
+|-[May 07 2021 00:13:55 @Unknown Caller]:   	 ASSSS 
+|-[May 07 2021 00:13:55 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 00:21:58 @startExpress]:   	 Starting server... 
+|-[May 07 2021 00:21:58 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 00:22:20 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 00:22:20 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 00:22:20 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 00:22:20 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 00:22:20 @Unknown Caller]:   	 Out of index 
+|-[May 07 2021 00:22:26 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 00:22:26 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 00:22:26 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 00:22:26 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 00:22:26 @Unknown Caller]:   	 Out of index 
+|-[May 07 2021 00:58:49 @startExpress]:   	 Starting server... 
+|-[May 07 2021 00:58:49 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 00:58:54 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 00:58:54 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 00:58:54 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 00:58:54 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 00:58:54 @Unknown Caller]:   	 Out of index 
+|-[May 07 2021 01:01:13 @startExpress]:   	 Starting server... 
+|-[May 07 2021 01:01:13 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 01:01:20 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 01:01:20 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 01:01:20 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 01:01:20 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 01:01:20 @Unknown Caller]:   	 Out of index 
+|-[May 07 2021 01:02:56 @undefined]:   	 Starting server... 
+|-[May 07 2021 01:02:56 @undefined]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 01:03:21 @function Log(){
+    //const message = JSON.stringify( Object.values(arguments), null, 0 )
+    const passedContent = Object.values(arguments)
+    const last = passedContent[passedContent.length -1]
+    let color = "\x1b[0m"
+    if( String(last).startsWith("\x1b") ){
+        color = passedContent.pop()
+    }
+    let message = ""; 
+    passedContent.map( (item) => {message += typeof(item)=="string" ? item : JSON.stringify(item) } )
+    //const caller = arguments.callee.caller.name
+    const caller = arguments.callee //.name
+    const origin = (caller==="") ? "Unknown Caller" : caller
+    const currentTime = getTime().split(" ").slice(1,5).join(" ")
+    product = `|-[${currentTime} @${origin}]:   \t ${message} `
+    console.log( color, product)
+    //console.log("\x1b[0m")
+    appendFile("Log.txt", product+"\n")
+}]:   	 Starting server... 
+|-[May 07 2021 01:03:21 @function Log(){
+    //const message = JSON.stringify( Object.values(arguments), null, 0 )
+    const passedContent = Object.values(arguments)
+    const last = passedContent[passedContent.length -1]
+    let color = "\x1b[0m"
+    if( String(last).startsWith("\x1b") ){
+        color = passedContent.pop()
+    }
+    let message = ""; 
+    passedContent.map( (item) => {message += typeof(item)=="string" ? item : JSON.stringify(item) } )
+    //const caller = arguments.callee.caller.name
+    const caller = arguments.callee //.name
+    const origin = (caller==="") ? "Unknown Caller" : caller
+    const currentTime = getTime().split(" ").slice(1,5).join(" ")
+    product = `|-[${currentTime} @${origin}]:   \t ${message} `
+    console.log( color, product)
+    //console.log("\x1b[0m")
+    appendFile("Log.txt", product+"\n")
+}]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 01:05:58 @startExpress]:   	 Starting server... 
+|-[May 07 2021 01:05:58 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 01:06:01 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 01:06:01 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 01:06:01 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 01:06:01 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 01:06:01 @Unknown Caller]:   	 Out of index 
+|-[May 07 2021 01:53:37 @function startExpress(PORT, DB_PATH){
+    // Primary function to handle Express server instance
+    Log("Starting server...", "\x1b[36m")
+    const callBack = (env, data) => { env.send(data) }
+    const server = express()
+    PORT = PORT || 3500    // Set default port if param is not falsey (undefined)
+    DB_PATH = DB_PATH || "pets.json"    // Set default database path if param is not falsey (undefined)
+
+    server.listen(PORT, function listen_func(){
+        Log(`Server running/listening on http://localhost:${PORT}`, "\x1b[36m" )
+    })
+
+    server.get("/", function home_func(req,res) {
+        const greet = "You're in the right place, but you'll need to be more specific on where you want to go. \nPlease specify in the URL along with any arguments"
+        Log("Home page: ", greet, "\x1b[32m")
+        res.status(404)
+        res.send( greet )
+    })
+
+    server.get("/pets", function pets_root_func(req,res) {
+        
+        const content = pets.main(["read", DB_PATH], res, callBack)
+        Log("Response:", content, "\x1b[32m" )
+        //res.send(  "TEST: ", content )
+    })
+
+    server.get("/debug", (req,res) => {
+        const what = req.query.what    // Small amounts of data, used for every requests
+        Log("Debbuging: ", req.params, "\x1b[31m")
+        switch(what){
+            case "servererror": 
+                Log("Throwing server error", "\x1b[31m") 
+                server.runMiddleware("/pets")
+                
+            default:
+                Log("Unknown debbuging argument", "\x1b[31m")
+                res.send("Debug Complete")
+                
+        }
+    })
+
+    server.use((req, res, next) => {
+        Log("Running back 404", "\x1b[33m")
+        res.status(404)
+        res.send("Hey, sorry pal, I can't quite find what you are looking for :( ")
+    })
+    
+
+    server.use((err, req, res, next) => {
+        Log("Running back 500: ", err, "\x1b[31m")
+        res.status(500)
+        res.send(err)
+    })
+}]:   	 Starting server... 
+|-[May 07 2021 01:53:37 @function listen_func(){
+        Log(`Server running/listening on http://localhost:${PORT}`, "\x1b[36m" )
+    }]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 01:53:48 @startExpress]:   	 Starting server... 
+|-[May 07 2021 01:53:48 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 01:59:35 @startExpress]:   	 Starting server... 
+|-[May 07 2021 01:59:35 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 01:59:39 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 01:59:39 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 01:59:39 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 01:59:39 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 01:59:39 @Unknown Caller]:   	 Out of index 
+|-[May 07 2021 02:01:05 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:01:05 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:14:13 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:14:13 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:14:16 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:14:16 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:14:16 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 02:14:16 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:14:20 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 02:14:20 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:14:20 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:14:20 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:15:59 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:15:59 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:16:01 @Unknown Caller]:   	 Debbuging: {} 
+|-[May 07 2021 02:16:01 @Unknown Caller]:   	 Unknown debbuging argument 
+|-[May 07 2021 02:16:11 @Unknown Caller]:   	 Running back 404 
+|-[May 07 2021 02:16:16 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:16:26 @Unknown Caller]:   	 Running back 404 
+|-[May 07 2021 02:17:38 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:17:38 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:17:42 @pets_root_func]:   	 {"index":"2"} 
+|-[May 07 2021 02:17:42 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 02:17:42 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:17:42 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:17:42 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:17:49 @pets_root_func]:   	 {"index":"0"} 
+|-[May 07 2021 02:17:49 @main]:   	 Argv: ["read","pets.json"] 
+|-[May 07 2021 02:17:49 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:17:49 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:17:49 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:18:13 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:18:13 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:18:16 @main]:   	 Argv: ["read","pets.json",{"index":"0"}] 
+|-[May 07 2021 02:18:16 @main]:   	 Arguments in main func were: "[object Object]" object 
+|-[May 07 2021 02:18:16 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:18:16 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:18:20 @main]:   	 Arguments in main func were: "[object Object]" object 
+|-[May 07 2021 02:18:20 @main]:   	 Argv: ["read","pets.json",{"index":"1"}] 
+|-[May 07 2021 02:18:20 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:18:20 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:18:29 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:18:29 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:18:31 @main]:   	 Argv: ["read","pets.json","1"] 
+|-[May 07 2021 02:18:31 @main]:   	 Arguments in main func were: "1" object 
+|-[May 07 2021 02:18:31 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:18:31 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:19:06 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:19:06 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:19:08 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:19:08 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:19:08 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:19:08 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:19:11 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:19:11 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:19:11 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:19:11 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:19:39 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:19:39 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:19:41 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:19:41 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:19:41 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:19:41 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:20:11 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:20:11 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:20:17 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:20:17 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:20:17 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:20:17 @readFile]:   	 Start of readFile function: string 
+|-[May 07 2021 02:20:40 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:20:40 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:20:42 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:20:42 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:20:42 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:20:42 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:21:53 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:21:53 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:21:54 @main]:   	 Argv: ["read","pets.json","0"] 
+|-[May 07 2021 02:21:54 @main]:   	 Arguments in main func were: "0" object 
+|-[May 07 2021 02:21:54 @readFile]:   	 Start of readFile function: pets.json0 
+|-[May 07 2021 02:21:54 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:22:06 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:22:06 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:22:08 @main]:   	 Arguments in main func were: "[object Object]" object 
+|-[May 07 2021 02:22:08 @main]:   	 Argv: ["read","pets.json",{"index":"0"}] 
+|-[May 07 2021 02:22:08 @readFile]:   	 Start of readFile function: pets.json{"index":"0"} 
+|-[May 07 2021 02:22:08 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:22:23 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:22:23 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:22:25 @main]:   	 Argv: ["read","pets.json","0"] 
+|-[May 07 2021 02:22:25 @readFile]:   	 Start of readFile function: pets.json0 
+|-[May 07 2021 02:22:25 @main]:   	 Arguments in main func were: "0" object 
+|-[May 07 2021 02:22:25 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:22:43 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:22:43 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:22:45 @main]:   	 Argv: ["read","pets.json","0"] 
+|-[May 07 2021 02:22:45 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:22:45 @main]:   	 Arguments in main func were: "0" object 
+|-[May 07 2021 02:22:45 @readFile]:   	 Start of readFile function: pets.json0 
+|-[May 07 2021 02:23:08 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:23:08 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:23:11 @main]:   	 Argv: ["read","pets.json","0"] 
+|-[May 07 2021 02:23:11 @main]:   	 Arguments in main func were: "0" object 
+|-[May 07 2021 02:23:11 @readFile]:   	 Start of readFile function: pets.json0 
+|-[May 07 2021 02:23:11 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:23:11 @Unknown Caller]:   	 Returning partial object 
+|-[May 07 2021 02:23:13 @main]:   	 Argv: ["read","pets.json","1"] 
+|-[May 07 2021 02:23:13 @readFile]:   	 Start of readFile function: pets.json1 
+|-[May 07 2021 02:23:13 @main]:   	 Arguments in main func were: "1" object 
+|-[May 07 2021 02:23:13 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:23:13 @Unknown Caller]:   	 Returning partial object 
+|-[May 07 2021 02:24:37 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:24:37 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:24:39 @pets_root_func]:   	 Body: undefined 
+|-[May 07 2021 02:24:39 @main]:   	 Argv: ["read","pets.json","1"] 
+|-[May 07 2021 02:24:39 @main]:   	 Arguments in main func were: "1" object 
+|-[May 07 2021 02:24:39 @readFile]:   	 Start of readFile function: pets.json1 
+|-[May 07 2021 02:24:39 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:24:39 @Unknown Caller]:   	 Returning partial object 
+|-[May 07 2021 02:25:01 @Unknown Caller]:   	 Running back 404 
+|-[May 07 2021 02:25:30 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:25:30 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:25:56 @Unknown Caller]:   	 Running back 404 
+|-[May 07 2021 02:26:01 @Unknown Caller]:   	 Running back 404 
+|-[May 07 2021 02:26:09 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:26:09 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:26:11 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:26:11 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:26:11 @pets_root_func]:   	 Post Body: undefined 
+|-[May 07 2021 02:26:11 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:26:11 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:29:34 @pets_root_func]:   	 Post Body: undefined 
+|-[May 07 2021 02:29:34 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:29:34 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:29:34 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:29:34 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:34:29 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:34:29 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:34:33 @pets_root_func]:   	 Post Body: undefined 
+|-[May 07 2021 02:34:33 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:34:33 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:34:33 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:34:33 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:35:08 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:35:08 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:35:12 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:35:25 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:35:45 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:35:45 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:35:47 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:35:58 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:35:58 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:36:00 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:36:11 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:36:11 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:36:13 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:36:53 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:36:53 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:36:55 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:36:55 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:36:55 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:36:55 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:37:20 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:37:20 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:37:39 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:37:39 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:37:42 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:37:49 @Unknown Caller]:   	 Running back 500: {} 
+|-[May 07 2021 02:38:54 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:38:54 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:38:59 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:38:59 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:38:59 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:38:59 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:39:22 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:39:22 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:39:22 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:39:22 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:39:29 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:39:29 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:39:31 @main]:   	 Argv: ["read","pets.json",null] 
+|-[May 07 2021 02:39:31 @main]:   	 Arguments in main func were: "" object 
+|-[May 07 2021 02:39:31 @readFile]:   	 Start of readFile function: pets.jsonundefined 
+|-[May 07 2021 02:39:31 @pets_root_func]:   	 Response:{} 
+|-[May 07 2021 02:40:46 @Unknown Caller]:   	 Running back 404 
+|-[May 07 2021 02:44:30 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:44:30 @listen_func]:   	 Server running/listening on http://localhost:3500 
+|-[May 07 2021 02:46:36 @startExpress]:   	 Starting server... 
+|-[May 07 2021 02:46:36 @listen_func]:   	 Server running/listening on http://localhost:3500 
