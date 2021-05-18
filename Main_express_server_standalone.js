@@ -15,6 +15,9 @@ if (process.argv.length > 2){
         console.log("_".repeat(100)+"\n")
         var nothing = startExpress()
     }
+    else{
+        console.log("USAGE: [server]")
+    }
 }
 
 function startExpress(PORT, DB_PATH){
@@ -34,7 +37,7 @@ function startExpress(PORT, DB_PATH){
         const greet = "You're in the right place, but you'll need to be more specific on where you want to go. \nPlease specify in the URL along with any arguments"
         Log("Home page: ", greet, "\x1b[32m")
         res.status(404)
-        res.send( greet )
+        res.send( greet ) 
     })
 
     server.get("/pets/:index", function pets_root_func(req,res) {
@@ -57,10 +60,10 @@ function startExpress(PORT, DB_PATH){
         const what = req.query.what    // Small amounts of data, used for every requests
         Log("Debbuging: ", req.params, "\x1b[31m")
         switch(what){
-            case "servererror": 
+            case "servererror" || "500": 
                 Log("Throwing server error", "\x1b[31m") 
-                server.runMiddleware("/pets")
-                
+                //server.runMiddleware("/pets")
+                throw(err)
             default:
                 Log("Unknown debbuging argument", "\x1b[31m")
                 res.send("Debug Complete")
@@ -81,6 +84,7 @@ function startExpress(PORT, DB_PATH){
         res.send(err)
     })
 }
+
 
 /*
 (function() {

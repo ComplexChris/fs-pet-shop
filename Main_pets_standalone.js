@@ -4,69 +4,21 @@ const fs = require("fs")
 const { type } = require("os")
 
 module.exports = {
-    start,
-    main,
+    verifyInput,
+    readFile,
+    update,
     Log
 }
 
-
-
-async function start(){
-    if (process.argv.length > 2){
-        if( process.argv[2]==="server"){
-            //startServer()
-            const server = require("./Main_express_server_standalone")
-            server.startExpress(4000)
-        }
-        else{
-            response = await main( process.argv.slice(2) )
-            Log(response)
-        }
-    }
-    else{
-        // No arguments were passed; crash it.
-        const msg = `Usage: node pets.js [read | create | update | destroy]`
-        Log(msg)
-        process.exitCode = 1
-    }
+function verifyInput(primary, against){
+    against = against || {"age":null, "kind":null, "name":null}
+    const results = {...against, ...primary}
+    Log(results)
+    return (primary.length === results.length && !(null in Object.values(results) ) );
 }
 
-async function main( argv, res, callBack ){
-    // Executes during call
-    // A argument has been passed; handle it.
-    Log("Argv: ", argv)
-    const [arg, paraPath, ...paraArgz] = argv    // [command] [file path] (options)
-    Log(`Arguments in main func were: "${paraArgz}" ${typeof(paraArgz)}`)
-    try{
-        switch( arg.toUpperCase() ){
-            case "READ": 
-                // Requires 1 argument minimum (path to file)
-                var ret = await readFile(paraPath, paraArgz[0], res)
-                //callBack (res, ret)
-                return ret //Log(resp)
-            case "CREATE": 
-            Log("Creating:")
-                var ret = await modifyEntry(paraPath, paraArgz, "CREATE")
-                return ret
-            case "UPDATE": 
-                Log("You passed Update")
-                var ret = await modifyEntry(paraPath, paraArgz, "UPDATE")
-                return ret
-            case "DESTROY": 
-                Log("You passed Destroy")
-                break
-            default:
-                Log("This should not happen")
-                throw("Invalid - No argument supplied")
-        }
-    } 
-    catch(err){
-        // Default error handler for all functions
-        return( [404, err] )
-    }
-}
 
-async function modifyEntry(filePath, argArray, mode){
+async function modifyEntry(filePath, argArray, mode, callBack){
     Log("Arguments: ", argArray )
     // Will check for 3 arguments
     // If arguments are valid, will append to pre-defined database
@@ -106,27 +58,40 @@ async function modifyEntry(filePath, argArray, mode){
         throw("Error - No changes could be made")
     }
     else{
-    const resp = await writeFile(filePath, JSON.stringify( new_db , null, 1  ) )// 3rd para for spacing )
-    return( entry )
+        const resp = await writeFile(filePath, JSON.stringify( new_db , null, 1  ) )// 3rd para for spacing )
+        callBack.send(entry);
+        return( entry );
     }
+    
 }
 
-function writeFile(filePath, data, index){
-    return new Promise(  (resolve, reject) => {
-        if(data.length === 0 ){
-            process.exitCode = 1
-            return
+function update(filePath, entry, callBack){
+    // Read old file
+    // Write old plus new to DB
+    // Send response
+    //const [ age, kind, name] = argArray
+    //const entry = { age, kind, name }
+    readFile( filePath, null, (data)=> {
+        data.push(entry);
+        const newDB = JSON.stringify( data, null, " ");
+        writeFile(filePath, newDB, callBack);
+    } ) 
+}
+
+function writeFile(filePath, data, callBack){
+    if(data.length === 0 ){
+        process.exitCode = 1
+        callBack("ERROR")
+    }
+    fs.writeFile(filePath, data, (err) => {
+        if(err){ 
+            callBack ( err );
+        } 
+        else{
+            Log("Saved")
+            callBack("Saved")
         }
-        fs.writeFile(filePath, data, (err) => {
-            if(err){ 
-                reject ( err );
-            }
-            else{
-                Log("Saved")
-                resolve("Saved")
-            }
-        });
-    }) // Closing for Promise function
+    });
 }
 
 function readFileOld(filePath, index){
@@ -161,26 +126,27 @@ function readFileOld(filePath, index){
 
 function readFile(filePath, index, callBack){
     // Assumes .json file is passed.
-    filePath = filePath || "./pets.json" 
-    Log("Start of readFile function: ", filePath, index)
+    filePath = filePath || "./pets.json" ;
+    Log("Start of readFile function: ", filePath, index);
     try{
         // If no issues accessing file, read contents and display them.
         fs.readFile(filePath, {encoding:"utf8"}, (err, data) =>{
             // Put callback function here.
-            let obj = JSON.parse(data)
-            if(err){ throw(err) }
-            index = parseInt( index )
+            let obj = JSON.parse(data);
+            if(err){ 
+                Log(err);
+                return }
+            index = parseInt( index );
             if( typeof(index)==="number" && index<obj.length){
-                Log( "Returning partial object" )
-                obj = obj[index]
+                Log( "Returning partial object" );
+                obj = obj[index];
             }
-            callBack.send(obj)
+            callBack(obj);
         })  // Closing for normal readFile callBack
     }
     catch(err){
-        Log("An error on line 50 has ocured: \n", err, "\x1b[31m")
-        callBack.status(404)
-        callBack.send(`Invalid to read database`)
+        Log("An error on line 50 has ocured: \n", err, "\x1b[31m");
+        callBack(`Invalid to read database`);
     }
 }  // Closing for readFile function
 
@@ -196,15 +162,16 @@ function Log(){
     //const message = JSON.stringify( Object.values(arguments), null, 0 )
     const passedContent = Object.values(arguments)
     const last = passedContent[passedContent.length -1]
-    let color = "\x1b[0m"
+    //let color = "\x1b[0m"
+    const caller = arguments.callee.caller.name
+    let color = (caller==="") ? "\x1b[33m" : "\x1b[37m";
+    const origin = (caller==="") ? "Unknown Caller" : caller
     if( String(last).startsWith("\x1b") ){
         // Used to define a specific color if one is passed
         color = passedContent.pop()
     }
     let message = ""; 
     passedContent.map( (item) => {message += typeof(item)=="string" ? item : JSON.stringify(item) } )
-    const caller = arguments.callee.caller.name
-    const origin = (caller==="") ? "Unknown Caller" : caller
     const currentTime = getTime().split(" ").slice(1,5).join(" ")
     product = `|-[${currentTime} @${origin}]:   \t ${message} `
     console.log( color, product)
